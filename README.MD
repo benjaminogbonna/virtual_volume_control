@@ -1,13 +1,20 @@
 # Virtual Volume Control
 
-
 ## General Information
-
+This virtual volume control uses hand gestures to control your system's
+volume, either when watching videos or listening to music.
+The camera is accessed using opencv, processed with mediapipe and
+the main control is done with pycaw. 
 
 
 ## Installation
 Create a virtual env, then
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all required packages (see requirements.txt)
+use the package manager [pip](https://pip.pypa.io/en/stable/) to install all required packages:
+- Numpy
+- Mediapipe
+- cv2
+- pycaw
+
 
 ```bash
 pip install <package_name>
